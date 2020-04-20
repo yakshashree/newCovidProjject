@@ -1,0 +1,29 @@
+body {
+  background-color: #fcfcfd;
+
+  background-position: 50% 50%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img_bg {
+  /* background-image: url("/img/covid_19_wall2.jpg"); */
+
+  /* Add the blur effect */
+  filter: blur(5%);
+
+  /* Full height */
+  min-height: 100%;
+  min-width: 100%;
+  position: fixed;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
